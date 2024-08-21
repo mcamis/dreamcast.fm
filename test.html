@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>🌀 Dreamcast.fm</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="./ripple.js"></script>
+  </head>
+
+  <body>
+    <section id="player-container">
+      <div id="track-container">
+        <h2>Track</h2>
+        <div id="track-number">02</div>
+      </div>
+      <div id="time-container">
+        <h2>Time</h2>
+        <div id="time-number">03:45</div>
+      </div>
+      <button id="back">Edit Tracks</button>
+      <div id="player-controls">
+        <button id="skip-back">
+          <span class="visually-hidden">Skip Backward</span>⏮️
+        </button>
+        <button id="stop"><span class="visually-hidden">Stop</span>⏹️</button>
+        <button id="play-pause">
+          <span class="visually-hidden">Play</span>⏯️
+        </button>
+        <button id="skip-forward">
+          <span class="visually-hidden">Skip Forward</span>⏭️
+        </button>
+        <button id="repeat">
+          <span class="visually-hidden">Repeat</span>🔁
+        </button>
+      </div>
+      <div id="canvas"></div>
+    </section>
+  </body>
+</html>
