@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #7d9aba;
+}
+#player-container {
+  height: 100%;
+  position: relative;
+}
+#track-container,
+#time-container {
+  position: absolute;
+}
+
+#track-container {
+  left: 25%;
+}
+
+#time-container {
+  right: 25%;
+}
+#canvas {
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+#player-controls {
+  position: absolute;
+  bottom: 10%;
+  width: calc(100% - 40px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  margin-left: 40px;
+}
+#player-controls button {
+  display: inline-block;
+  border-radius: 100%;
+  padding: 5px 25px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.visually-hidden {
+  visibility: hidden;
+  display: none;
+}
+
+#back {
+    position: absolute;
+    bottom: 10%;
+  width: 50px;
+  height: 70px;
+}
